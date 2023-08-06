@@ -1,0 +1,20 @@
+{
+    "name": "MeroShare Calculator",
+    "description": "Calculate profit/loss on MeroShare",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://meroshare.cdsc.com.np/#/portfolio"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "show.html"
+    }
+  }
+  
