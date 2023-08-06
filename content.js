@@ -9,6 +9,7 @@ chrome.runtime.onConnect.addListener((port) => {
   });
 });
 
+// Calculate the profit
 function calculate(difference) {
   if (difference === 0) {
     return "No change";
