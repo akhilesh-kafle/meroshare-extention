@@ -37,7 +37,7 @@ Contributions are welcome! If you find a bug, have an enhancement, or want to ad
 
 ## Contact
 
-If you have any questions or need assistance, feel free to contact me on Discord at `thisisthat.`
+If you have any questions or need assistance, feel free to contact me on Discord at `kaflesque`
 
 ## License
 
